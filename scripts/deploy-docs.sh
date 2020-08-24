@@ -17,10 +17,11 @@ git init
 git add -A
 git commit -m 'deploy'
 
+git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f master:gh-pages
+git push -f origin master:gh-pages
 
 cd -
