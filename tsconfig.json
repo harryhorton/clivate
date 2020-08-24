@@ -24,6 +24,6 @@
     "experimentalDecorators":true,
     "removeComments": false,
   },
-  "include": ["src", "commands/templates", "docs"],
+  "include": ["src", "commands/templates", "doc-src"],
   "exclude": ["node_modules","templates"]
 }

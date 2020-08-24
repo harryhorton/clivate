@@ -12,13 +12,14 @@
   "license": "MIT",
   "scripts": {
     "build": "rm -rf build && tsc && chmod +x ./build/bin/clivate.js && cp -R templates build/templates && node ./scripts/prepend-bin.js",
-    "build:docs": "vuepress build docs",
-    "dev:docs": "vuepress dev docs",
+    "build:docs": "vuepress build docs-src",
+    "dev:docs": "vuepress dev docs-src",
     "test": "node ./node_modules/.bin/jest --verbose",
     "build:sample": "tsc ",
-    "release":"yarn changelog && git tag -a v$npm_package_version -m v$npm_package_version && git add -A && git commit -m \"release v$npm_package_version\" ",
+    "v":"vuepress --help",
+    "release":"yarn changelog && git tag -a v$npm_package_version -m v$npm_package_version && git add -A && git commit -m \"release v$npm_package_version\" && git push --tags",
     "changelog":"conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "changelog:latest":"conventional-changelog -p angular -i CHANGELOG_LATEST.md -s -r 1",
+    "changelog:latest":"conventional-changelog -p angular -i CHANGELOG_LATEST.md -s",
     "clivate": "node build/clivate.js",
     "build:commands": "tsc --project ./commands/tsconfig.json"
   },
