@@ -2,8 +2,10 @@
 .vscode
 commands
 docs
+docs-src
 script
 src
 .gitignore
 deploy.sh
 jest.config.js
+.nojekyll
