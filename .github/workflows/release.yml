@@ -6,7 +6,6 @@ name: Release
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
     tags:
       - 'v*'
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -45,7 +44,14 @@ jobs:
 
     - name: Generate latest changelog
       run: yarn changelog:latest
-    
+
+    - name: Publish to NPM
+      run: |
+          npm config set '//registry.npmjs.org/:_authToken' "${NPM_AUTH_TOKEN}" --dry-run
+          npm publish --tag ${{ github.ref }}
+      env:
+        NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
@@ -57,9 +63,3 @@ jobs:
         body_path: CHANGELOG_LATEST.md
         draft: true
         prerelease: true
-    - name: Publish to NPM
-      run: |
-          npm config set '//registry.npmjs.org/:_authToken' "${NPM_AUTH_TOKEN}"
-          npm publish --tag ${{ github.ref }}
-      env:
-        NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
