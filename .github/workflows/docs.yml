@@ -36,4 +36,4 @@ jobs:
 
     # Run tests
     - name: Deploy Docs
-      run: sh ./deploy-docs.sh
+      run: sh ./scripts/deploy-docs.sh
