@@ -16,8 +16,8 @@ git config --global user.email 'n0vat3k@gmail.com'
 git init
 git add -A
 git commit -m 'deploy'
-echo ${ github.repository }
-git remote set-url git@github.com/${ github.repository }.git
+echo ${ repository }
+git remote set-url git@github.com/${ repository }.git
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 

@@ -37,3 +37,5 @@ jobs:
     # Run tests
     - name: Deploy Docs
       run: sh ./scripts/deploy-docs.sh
+      env:
+        repository: ${{ github.repository }}
