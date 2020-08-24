@@ -22,6 +22,6 @@ git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@git
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f origin master:gh-pages
+git push -f master:gh-pages
 
 cd -
