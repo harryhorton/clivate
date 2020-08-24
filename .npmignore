@@ -2,7 +2,6 @@
 .vscode
 commands
 docs
-docs-src
 script
 src
 .gitignore
