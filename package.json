@@ -3,7 +3,7 @@
   "version": "1.0.0-alpha.1",
   "main": "build/index.js",
   "description": "Flexible Node.js CLI Tooling",
-  "homepage": "https://johnhhorton.github.io/clivate/",
+  "homepage": "https://harryhorton.github.io/clivate/",
   "files": [
     "/"
   ],
@@ -16,11 +16,11 @@
     "build:docs": "vuepress build docs",
     "dev:docs": "vuepress dev docs",
     "test": "node ./node_modules/.bin/jest --verbose",
-    "build:sample": "tsc ",
-    "v":"vuepress --help",
-    "release":"yarn changelog && git tag -a v$npm_package_version -m v$npm_package_version && git add -A && git commit -m \"release v$npm_package_version\" && git push --tags",
-    "changelog":"conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "changelog:latest":"conventional-changelog -p angular -i CHANGELOG_LATEST.md -s",
+    "build:sample": "tsc",
+    "v": "vuepress --help",
+    "release": "yarn changelog && git tag -a v$npm_package_version -m v$npm_package_version && git add -A && git commit -m \"release v$npm_package_version\" && git push --tags",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "changelog:latest": "conventional-changelog -p angular -i CHANGELOG_LATEST.md -s",
     "clivate": "node build/clivate.js",
     "build:commands": "tsc --project ./commands/tsconfig.json"
   },
