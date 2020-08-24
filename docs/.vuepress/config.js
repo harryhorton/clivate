@@ -1,11 +1,11 @@
-const { description } = require('../../package')
+const { description } = require("../../package");
 
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'CLIvate',
-  base:'/clivate/',
+  title: "CLIvate",
+  base: "/clivate/",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -17,9 +17,12 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3182CE' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ["meta", { name: "theme-color", content: "#3182CE" }],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    [
+      "meta",
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
+    ],
   ],
 
   /**
@@ -29,42 +32,40 @@ module.exports = {
    */
   themeConfig: {
     editLinks: false,
-    docsDir: '',
-    editLinkText: '',
+    docsDir: "",
+    editLinkText: "",
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
-      }
+        text: "Guide",
+        link: "/guide/",
+      },
+      {
+        text: "Github",
+        link: "https://github.com/harryhorton/clivate",
+      },
     ],
     sidebar: [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            'guide/',
-            'guide/getting-started',
-            'guide/writing-commands',
-            'guide/running-commands',
-          ]
-        },
-        {
-          title: 'API',
-          collapsable: false,
-          children: [
-            'api/init-command'
-          ]
-        }
-      ],
-    
+      {
+        title: "Guide",
+        collapsable: false,
+        children: [
+          "guide/",
+          "guide/getting-started",
+          "guide/writing-commands",
+          "guide/running-commands",
+        ],
+      },
+      {
+        title: "API",
+        collapsable: false,
+        children: ["api/init-command"],
+      },
+    ],
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-  ]
-}
+  plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom"],
+};
