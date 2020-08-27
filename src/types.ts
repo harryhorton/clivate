@@ -4,7 +4,14 @@ export interface Config {
   setupFile: string;
   commandsDirectory?: string;
   commandsDistDirectory?: string;
+  plugins?: string[];
 }
+
+export interface SetupConfig {
+  commands: ICommand[];
+}
+
+export type SetupFileExport = { setup: () => SetupConfig | SetupConfig };
 
 export type FuncOrReturn<Func extends (...args: any[]) => any> =
   | Func
