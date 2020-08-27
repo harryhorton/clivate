@@ -1,6 +1,6 @@
 {
   "name": "clivate",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "main": "build/index.js",
   "description": "Flexible Node.js CLI Tooling",
   "homepage": "https://harryhorton.github.io/clivate/",
