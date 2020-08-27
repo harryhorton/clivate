@@ -1,3 +1,7 @@
+# [1.0.0-alpha.2](https://github.com/Johnhhorton/clivate/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2020-08-27)
+
+
+
 # [1.0.0-alpha.1](https://github.com/Johnhhorton/clivate/compare/v1.0.0-alpha.0...v1.0.0-alpha.1) (2020-08-27)
 
 
