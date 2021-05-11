@@ -1031,10 +1031,10 @@ cliui@^6.0.0:
     strip-ansi "^6.0.0"
     wrap-ansi "^6.2.0"
 
-clivate@^1.0.0-alpha.0:
-  version "1.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/clivate/-/clivate-1.0.0-alpha.0.tgz#25c292c9b3e16ecb5d6fa41f42f63151dea949d0"
-  integrity sha512-/pVqKtFKJPtJI6WhtDIF8/BX0XVmGyfXFl8TuOmYi8Iy0inKiCZXm4vZkBY343rl6r1CuKZ/0DwX5bpX5vRggA==
+clivate@^1.0.0-alpha.1:
+  version "1.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/clivate/-/clivate-1.0.0-alpha.2.tgz#9599fdf0aa34f67b166d08cbaadcef0aa0cc1332"
+  integrity sha512-pGRmuzsAzZNDT5jdXdrcZft2osoZ7Vd/QQfTFlCCA21GLoGagxNMf4LM4jMl8DRJv4lccL7pHHmged4QDPP2Hg==
   dependencies:
     "@types/app-root-path" "^1.2.4"
     "@types/chalk" "^2.2.0"
@@ -2537,9 +2537,9 @@ lodash.sortby@^4.7.0:
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
 lodash@^4.17.19:
-  version "4.17.20"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
-  integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 make-dir@^3.0.0:
   version "3.1.0"
