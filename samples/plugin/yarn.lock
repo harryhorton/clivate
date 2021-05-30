@@ -1031,10 +1031,10 @@ cliui@^6.0.0:
     strip-ansi "^6.0.0"
     wrap-ansi "^6.2.0"
 
-clivate@^1.0.0-alpha.0:
-  version "1.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/clivate/-/clivate-1.0.0-alpha.0.tgz#25c292c9b3e16ecb5d6fa41f42f63151dea949d0"
-  integrity sha512-/pVqKtFKJPtJI6WhtDIF8/BX0XVmGyfXFl8TuOmYi8Iy0inKiCZXm4vZkBY343rl6r1CuKZ/0DwX5bpX5vRggA==
+clivate@^1.0.0-alpha.1:
+  version "1.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/clivate/-/clivate-1.0.0-alpha.2.tgz#9599fdf0aa34f67b166d08cbaadcef0aa0cc1332"
+  integrity sha512-pGRmuzsAzZNDT5jdXdrcZft2osoZ7Vd/QQfTFlCCA21GLoGagxNMf4LM4jMl8DRJv4lccL7pHHmged4QDPP2Hg==
   dependencies:
     "@types/app-root-path" "^1.2.4"
     "@types/chalk" "^2.2.0"
@@ -3855,9 +3855,9 @@ write-file-atomic@^3.0.0:
     typedarray-to-buffer "^3.1.5"
 
 ws@^7.2.3:
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.3.1.tgz#d0547bf67f7ce4f12a72dfe31262c68d7dc551c8"
-  integrity sha512-D3RuNkynyHmEJIpD2qrgVkc9DQ23OrN/moAwZX4L8DfvszsJxpjQuUq3LMx6HoYji9fbIOBY18XWBsAux1ZZUA==
+  version "7.4.6"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
+  integrity sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
 
 xml-name-validator@^3.0.0:
   version "3.0.0"
