@@ -1031,10 +1031,10 @@ cliui@^6.0.0:
     strip-ansi "^6.0.0"
     wrap-ansi "^6.2.0"
 
-clivate@^1.0.0-alpha.0:
-  version "1.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/clivate/-/clivate-1.0.0-alpha.0.tgz#25c292c9b3e16ecb5d6fa41f42f63151dea949d0"
-  integrity sha512-/pVqKtFKJPtJI6WhtDIF8/BX0XVmGyfXFl8TuOmYi8Iy0inKiCZXm4vZkBY343rl6r1CuKZ/0DwX5bpX5vRggA==
+clivate@^1.0.0-alpha.1:
+  version "1.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/clivate/-/clivate-1.0.0-alpha.2.tgz#9599fdf0aa34f67b166d08cbaadcef0aa0cc1332"
+  integrity sha512-pGRmuzsAzZNDT5jdXdrcZft2osoZ7Vd/QQfTFlCCA21GLoGagxNMf4LM4jMl8DRJv4lccL7pHHmged4QDPP2Hg==
   dependencies:
     "@types/app-root-path" "^1.2.4"
     "@types/chalk" "^2.2.0"
@@ -3524,9 +3524,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-fast-properties@^2.0.0:
   version "2.0.0"
