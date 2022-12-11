@@ -1031,10 +1031,10 @@ cliui@^6.0.0:
     strip-ansi "^6.0.0"
     wrap-ansi "^6.2.0"
 
-clivate@^1.0.0-alpha.0:
-  version "1.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/clivate/-/clivate-1.0.0-alpha.0.tgz#25c292c9b3e16ecb5d6fa41f42f63151dea949d0"
-  integrity sha512-/pVqKtFKJPtJI6WhtDIF8/BX0XVmGyfXFl8TuOmYi8Iy0inKiCZXm4vZkBY343rl6r1CuKZ/0DwX5bpX5vRggA==
+clivate@^1.0.0-alpha.1:
+  version "1.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/clivate/-/clivate-1.0.0-alpha.2.tgz#9599fdf0aa34f67b166d08cbaadcef0aa0cc1332"
+  integrity sha512-pGRmuzsAzZNDT5jdXdrcZft2osoZ7Vd/QQfTFlCCA21GLoGagxNMf4LM4jMl8DRJv4lccL7pHHmged4QDPP2Hg==
   dependencies:
     "@types/app-root-path" "^1.2.4"
     "@types/chalk" "^2.2.0"
@@ -2978,9 +2978,9 @@ punycode@^2.1.0, punycode@^2.1.1:
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 rambda@5.13.1:
   version "5.13.1"
