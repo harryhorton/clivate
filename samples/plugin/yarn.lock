@@ -1031,10 +1031,10 @@ cliui@^6.0.0:
     strip-ansi "^6.0.0"
     wrap-ansi "^6.2.0"
 
-clivate@^1.0.0-alpha.0:
-  version "1.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/clivate/-/clivate-1.0.0-alpha.0.tgz#25c292c9b3e16ecb5d6fa41f42f63151dea949d0"
-  integrity sha512-/pVqKtFKJPtJI6WhtDIF8/BX0XVmGyfXFl8TuOmYi8Iy0inKiCZXm4vZkBY343rl6r1CuKZ/0DwX5bpX5vRggA==
+clivate@^1.0.0-alpha.1:
+  version "1.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/clivate/-/clivate-1.0.0-alpha.2.tgz#9599fdf0aa34f67b166d08cbaadcef0aa0cc1332"
+  integrity sha512-pGRmuzsAzZNDT5jdXdrcZft2osoZ7Vd/QQfTFlCCA21GLoGagxNMf4LM4jMl8DRJv4lccL7pHHmged4QDPP2Hg==
   dependencies:
     "@types/app-root-path" "^1.2.4"
     "@types/chalk" "^2.2.0"
@@ -2456,11 +2456,9 @@ json-stringify-safe@~5.0.1:
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
 
 json5@2.x, json5@^2.1.2:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.3.tgz#c9b0f7fa9233bfe5807fe66fcf3a5617ed597d43"
-  integrity sha512-KXPvOm8K9IJKFM0bmdn8QXh7udDh1g/giieX0NLCaMnb4hEiVFqnop2ImTXCc5e0/oHz3LTqmHGtExn5hfMkOA==
-  dependencies:
-    minimist "^1.2.5"
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
+  integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
 jsprim@^1.2.2:
   version "1.4.1"
